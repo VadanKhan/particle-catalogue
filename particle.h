@@ -68,7 +68,8 @@ public:
 
   // CLASS METHODS
   // Getters and Setters: Type
-  std::string get_type() const { return type; }
+  std::string get_type() const {
+    return type; }
   void set_type(const std::string& new_type) { type = new_type; }
 
   // Getters and Setters: 4momentum

@@ -38,7 +38,7 @@ public:
     }
 
   // Print function prototype
-  void print(const std::string &name = "Particle Details") const;
+  void print(const std::string &name = "Particle Details") const override;
 };
 
 class Muon : public Lepton
@@ -59,7 +59,7 @@ public:
     }
 
   // Print function prototype
-  void print(const std::string &name = "Particle Details") const;
+  void print(const std::string &name = "Particle Details") const override;
 };
 
 class Neutrino : public Lepton
@@ -87,7 +87,7 @@ public:
     }
 
   // Print function prototypTe
-  void print(const std::string &name = "Particle Details") const;
+  void print(const std::string &name = "Particle Details") const override;
 };
 
 class Tau : public Lepton
@@ -140,7 +140,7 @@ public:
     }
 
   // Print function prototype
-  void print(const std::string &name = "Particle Details") const;
+  void print(const std::string &name = "Particle Details") const override;
 
   // Overridden charge_conjugate method prototype
   Tau &charge_conjugate();
